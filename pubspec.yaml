@@ -1,0 +1,31 @@
+name: aplicacion_boceto
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_maps_flutter: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/usuario.png
+    - assets/banos_termales.jpg
+    - assets/taller_ceramica.jpg
+    - assets/termales.jpg
+    - assets/ceramica.jpg
+    - assets/tarata_fondo.jpg
+    - assets/tarata_logo.png
